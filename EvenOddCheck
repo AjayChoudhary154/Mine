@@ -1,0 +1,22 @@
+// Even Odd Program
+import java.util.Scanner;
+class EvenOddCheck
+{
+   public static void main(String args[])
+   {		
+	int temp;
+	boolean isEven=false;
+	Scanner scan= new Scanner(System.in);
+	System.out.println("Enter any number:");
+	//capture the input in an integer
+	int num=scan.nextInt();
+    scan.close();
+	if(num %2 == 0)
+	 isEven = true;
+	//If isPrime is true then the number is prime else not
+	if(isEven)
+	   System.out.println(num + " is a Even Number");
+	else
+	   System.out.println(num + " is a Odd Number");
+   }
+}
